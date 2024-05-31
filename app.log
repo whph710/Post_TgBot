@@ -1,20 +1,9 @@
+DEBUG:asyncio:Using proactor: IocpProactor
 INFO:aiogram.dispatcher:Start polling
 INFO:aiogram.dispatcher:Run polling for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
-INFO:aiogram.event:Update id=923794534 is handled. Duration 10172 ms by bot id=7087970913
-INFO:aiogram.dispatcher:Polling stopped
-INFO:aiogram.dispatcher:Polling stopped for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
-INFO:aiogram.dispatcher:Start polling
-INFO:aiogram.dispatcher:Run polling for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
-INFO:aiogram.event:Update id=923794535 is handled. Duration 516 ms by bot id=7087970913
-INFO:aiogram.event:Update id=923794536 is handled. Duration 3172 ms by bot id=7087970913
-INFO:aiogram.event:Update id=923794537 is not handled. Duration 0 ms by bot id=7087970913
-INFO:aiogram.dispatcher:Polling stopped
-INFO:aiogram.dispatcher:Polling stopped for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
-INFO:aiogram.dispatcher:Start polling
-INFO:aiogram.dispatcher:Run polling for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
-INFO:aiogram.event:Update id=923794538 is handled. Duration 438 ms by bot id=7087970913
-INFO:aiogram.event:Update id=923794539 is handled. Duration 2561 ms by bot id=7087970913
-INFO:aiogram.event:Update id=923794540 is not handled. Duration 0 ms by bot id=7087970913
-INFO:aiogram.event:Update id=923794541 is not handled. Duration 0 ms by bot id=7087970913
+INFO:aiogram.event:Update id=923794921 is not handled. Duration 0 ms by bot id=7087970913
+INFO:aiogram.event:Update id=923794922 is handled. Duration 1828 ms by bot id=7087970913
+INFO:aiogram.event:Update id=923794923 is handled. Duration 0 ms by bot id=7087970913
+INFO:aiogram.event:Update id=923794924 is handled. Duration 0 ms by bot id=7087970913
 INFO:aiogram.dispatcher:Polling stopped
 INFO:aiogram.dispatcher:Polling stopped for bot @ITHorizons_Helper_bot id=7087970913 - 'ITHorizons_Helper'
