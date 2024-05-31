@@ -8,7 +8,7 @@ import logging
 
 from app.user_handlers import user_router
 from app.admin_handlers import admin_router
-
+from app.middleware import SomeMiddleware
 indent = '-' * 36 + '\n'
 
 
@@ -17,6 +17,7 @@ async def main():
     load_dotenv()
     bot = Bot(token=os.getenv('token'))
     dp = Dispatcher()
+    dp.message.middleware(SomeMiddleware())
     dp.include_routers(user_router, admin_router)
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
@@ -24,9 +25,9 @@ async def main():
 
 if __name__ == '__main__':
     time_start = datetime.now()
-    logging.basicConfig(level=logging.INFO,
+    logging.basicConfig(level=logging.logMultiprocessing,
                         filename='app.log',
-                        filemode='a')
+                        filemode='w')
     try:
         print(indent + 'Bot started!')
         asyncio.run(main())
